@@ -15,7 +15,7 @@
 
 ## Get holidays on a specified date
 
-    Holidays.On(DateTime, Region)
+    Holidays.On(DateTime, [Region|Regions], [HolidayType|HolidayTypes](Holiday|Observed|Informal))
       => List<string>
          => ANZAC Day
 
